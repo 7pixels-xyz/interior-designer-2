@@ -1,0 +1,76 @@
+
+> designs-by-shouray@0.1.0 dev
+> next dev
+
+ ⚠ Port 3000 is in use, trying 3001 instead.
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3001
+
+ ✓ Starting...
+ ✓ Ready in 5.6s
+ ○ Compiling / ...
+Watchpack Error (initial scan): Error: EINVAL: invalid argument, lstat 'D:\System Volume Information'
+ ✓ Compiled / in 4s (391 modules)
+Watchpack Error (initial scan): Error: EINVAL: invalid argument, lstat 'D:\System Volume Information'
+Warning: React.jsx: type is invalid -- expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+
+Check your code at Footer.tsx:173.
+    at Footer (webpack-internal:///./sections/Footer.tsx:44:66)
+    at main
+    at Home
+    at App (webpack-internal:///./pages/_app.tsx:16:16)
+    at StyleRegistry (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\styled-jsx\dist\index\index.js:449:36)
+    at eU (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\next\dist\compiled\next-server\pages.runtime.dev.js:8:20506)
+    at eH (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\next\dist\compiled\next-server\pages.runtime.dev.js:17:1788)
+    at eJ (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\next\dist\compiled\next-server\pages.runtime.dev.js:17:3091)
+    at div
+    at e9 (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\next\dist\compiled\next-server\pages.runtime.dev.js:26:761)
+Warning: React.jsx: type is invalid -- expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+
+Check your code at Footer.tsx:173.
+    at Footer (webpack-internal:///./sections/Footer.tsx:44:66)
+    at main
+    at Home
+    at App (webpack-internal:///./pages/_app.tsx:16:16)
+    at StyleRegistry (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\styled-jsx\dist\index\index.js:449:36)
+    at eU (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\next\dist\compiled\next-server\pages.runtime.dev.js:8:20506)
+    at eH (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\next\dist\compiled\next-server\pages.runtime.dev.js:17:1788)
+    at eJ (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\next\dist\compiled\next-server\pages.runtime.dev.js:17:3091)
+    at div
+    at e9 (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\next\dist\compiled\next-server\pages.runtime.dev.js:26:761)
+Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+    at renderElement (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6054:9)
+    at renderNodeDestructiveImpl (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6087:14)
+    at renderNode (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6270:12)
+    at renderChildrenArray (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6222:7)
+    at renderNodeDestructiveImpl (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6152:7)
+    at renderNodeDestructive (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6087:14)
+    at renderNode (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6270:12)
+    at renderHostElement (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:5642:3)
+    at renderElement (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:5963:5)
+    at renderNodeDestructiveImpl (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6087:14)
+    at renderNode (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6270:12)
+    at renderChildrenArray (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6222:7)
+    at renderNodeDestructiveImpl (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6152:7)
+ ⨯ Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+    at renderElement (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6054:9)
+    at renderNodeDestructiveImpl (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6087:14)
+    at renderNode (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6270:12)
+    at renderChildrenArray (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6222:7)
+    at renderNodeDestructiveImpl (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6152:7)
+    at renderNodeDestructive (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6087:14)
+    at renderNode (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6270:12)
+    at renderHostElement (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:5642:3)
+    at renderElement (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:5963:5)
+    at renderNodeDestructiveImpl (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6087:14)
+    at renderNode (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6270:12)
+    at renderChildrenArray (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6222:7)
+    at renderNodeDestructiveImpl (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6152:7) {
+  page: '/'
+}
+ ✓ Compiled /_error in 252ms (393 modules)
+ GET / 500 in 5115ms
