@@ -74,3 +74,561 @@ Error: Element type is invalid: expected a string (for built-in components) or a
 }
  ✓ Compiled /_error in 252ms (393 modules)
  GET / 500 in 5115ms
+ ✓ Compiled in 586ms (335 modules)
+ ○ Compiling / ...
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ✓ Compiled / in 2.4s (391 modules)
+ GET /_next/static/webpack/157412ac29471719.webpack.hot-update.json 404 in 992ms
+ReferenceError: useRef is not defined
+    at Footer (webpack-internal:///./sections/Footer.tsx:126:21)
+    at renderWithHooks (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:5658:16)
+    at renderIndeterminateComponent (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:5732:15)
+    at renderElement (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6087:14)
+    at renderNode (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6270:12)
+    at renderChildrenArray (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6222:7)
+    at renderNodeDestructiveImpl (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6152:7)
+    at renderNodeDestructive (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6087:14)
+    at renderNode (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6270:12)
+    at renderHostElement (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:5642:3)
+    at renderElement (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:5963:5)
+    at renderNodeDestructiveImpl (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6087:14)
+ReferenceError: useRef is not defined
+    at Footer (webpack-internal:///./sections/Footer.tsx:126:21)
+    at renderWithHooks (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:5658:16)
+    at renderIndeterminateComponent (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:5732:15)
+    at renderElement (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6087:14)
+    at renderNode (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6270:12)
+    at renderChildrenArray (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6222:7)
+    at renderNodeDestructiveImpl (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6152:7)
+    at renderNodeDestructive (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6087:14)
+    at renderNode (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6270:12)
+    at renderHostElement (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:5642:3)
+    at renderElement (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:5963:5)
+    at renderNodeDestructiveImpl (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6087:14)
+ReferenceError: useRef is not defined
+    at Footer (webpack-internal:///./sections/Footer.tsx:126:21)
+    at renderWithHooks (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:5658:16)
+    at renderIndeterminateComponent (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:5732:15)
+    at renderElement (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6087:14)
+    at renderNode (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6270:12)
+    at renderChildrenArray (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6222:7)
+    at renderNodeDestructiveImpl (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6152:7)
+    at renderNodeDestructive (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6087:14)
+    at renderNode (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6270:12)
+    at renderHostElement (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:5642:3)
+    at renderElement (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:5963:5)
+    at renderNodeDestructiveImpl (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6087:14)
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ GET / 500 in 913ms
+ReferenceError: useRef is not defined
+    at Footer (webpack-internal:///./sections/Footer.tsx:126:21)
+    at renderWithHooks (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:5658:16)
+    at renderIndeterminateComponent (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:5732:15)
+    at renderElement (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6087:14)
+    at renderNode (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6270:12)
+    at renderChildrenArray (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6222:7)
+    at renderNodeDestructiveImpl (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6152:7)
+    at renderNodeDestructive (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6087:14)
+    at renderNode (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6270:12)
+    at renderHostElement (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:5642:3)
+    at renderElement (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:5963:5)
+    at renderNodeDestructiveImpl (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6087:14)
+ ⨯ sections\Footer.tsx (29:21) @ useRef
+ ⨯ ReferenceError: useRef is not defined
+    at Footer (webpack-internal:///./sections/Footer.tsx:126:21)
+    at renderWithHooks (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:5658:16)
+    at renderIndeterminateComponent (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:5732:15)
+    at renderElement (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6087:14)
+    at renderNode (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6270:12)
+    at renderChildrenArray (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6222:7)
+    at renderNodeDestructiveImpl (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6152:7)
+    at renderNodeDestructive (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6087:14)
+    at renderNode (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6270:12)
+    at renderHostElement (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:5642:3)
+    at renderElement (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:5963:5)
+    at renderNodeDestructiveImpl (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6087:14) {
+  page: '/'
+}
+[0m [90m 27 |[39m[0m
+[0m [90m 28 |[39m [36mexport[39m [36mdefault[39m [36mfunction[39m [33mFooter[39m() {[0m
+[0m[31m[1m>[22m[39m[90m 29 |[39m     [36mconst[39m textRef [33m=[39m useRef[33m<[39m[33mHTMLDivElement[39m[33m>[39m([36mnull[39m)[33m;[39m[0m
+[0m [90m    |[39m                     [31m[1m^[22m[39m[0m
+[0m [90m 30 |[39m     [36mconst[39m sectionRef [33m=[39m useRef[33m<[39m[33mHTMLElement[39m[33m>[39m([36mnull[39m)[33m;[39m[0m
+[0m [90m 31 |[39m[0m
+[0m [90m 32 |[39m     useEffect(() [33m=>[39m {[0m
+ ⨯ sections\Footer.tsx (29:21) @ useRef
+ ⨯ ReferenceError: useRef is not defined
+    at Footer (webpack-internal:///./sections/Footer.tsx:126:21)
+    at renderWithHooks (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:5658:16)
+    at renderIndeterminateComponent (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:5732:15)
+    at renderElement (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6087:14)
+    at renderNode (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6270:12)
+    at renderChildrenArray (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6222:7)
+    at renderNodeDestructiveImpl (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6152:7)
+    at renderNodeDestructive (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6087:14)
+    at renderNode (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6270:12)
+    at renderHostElement (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:5642:3)
+    at renderElement (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:5963:5)
+    at renderNodeDestructiveImpl (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6087:14) {
+  page: '/'
+}
+[0m [90m 27 |[39m[0m
+[0m [90m 28 |[39m [36mexport[39m [36mdefault[39m [36mfunction[39m [33mFooter[39m() {[0m
+[0m[31m[1m>[22m[39m[90m 29 |[39m     [36mconst[39m textRef [33m=[39m useRef[33m<[39m[33mHTMLDivElement[39m[33m>[39m([36mnull[39m)[33m;[39m[0m
+[0m [90m    |[39m                     [31m[1m^[22m[39m[0m
+[0m [90m 30 |[39m     [36mconst[39m sectionRef [33m=[39m useRef[33m<[39m[33mHTMLElement[39m[33m>[39m([36mnull[39m)[33m;[39m[0m
+[0m [90m 31 |[39m[0m
+[0m [90m 32 |[39m     useEffect(() [33m=>[39m {[0m
+ ⨯ sections\Footer.tsx (29:21) @ useRef
+ ⨯ ReferenceError: useRef is not defined
+    at Footer (webpack-internal:///./sections/Footer.tsx:126:21)
+    at renderWithHooks (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:5658:16)
+    at renderIndeterminateComponent (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:5732:15)
+    at renderElement (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6087:14)
+    at renderNode (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6270:12)
+    at renderChildrenArray (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6222:7)
+    at renderNodeDestructiveImpl (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6152:7)
+    at renderNodeDestructive (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6087:14)
+    at renderNode (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6270:12)
+    at renderHostElement (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:5642:3)
+    at renderElement (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:5963:5)
+    at renderNodeDestructiveImpl (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6087:14) {
+  page: '/'
+}
+[0m [90m 27 |[39m[0m
+[0m [90m 28 |[39m [36mexport[39m [36mdefault[39m [36mfunction[39m [33mFooter[39m() {[0m
+[0m[31m[1m>[22m[39m[90m 29 |[39m     [36mconst[39m textRef [33m=[39m useRef[33m<[39m[33mHTMLDivElement[39m[33m>[39m([36mnull[39m)[33m;[39m[0m
+[0m [90m    |[39m                     [31m[1m^[22m[39m[0m
+[0m [90m 30 |[39m     [36mconst[39m sectionRef [33m=[39m useRef[33m<[39m[33mHTMLElement[39m[33m>[39m([36mnull[39m)[33m;[39m[0m
+[0m [90m 31 |[39m[0m
+[0m [90m 32 |[39m     useEffect(() [33m=>[39m {[0m
+ ⨯ sections\Footer.tsx (29:21) @ useRef
+ ⨯ ReferenceError: useRef is not defined
+    at Footer (webpack-internal:///./sections/Footer.tsx:126:21)
+    at renderWithHooks (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:5658:16)
+    at renderIndeterminateComponent (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:5732:15)
+    at renderElement (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:5957:7)
+    at renderNodeDestructiveImpl (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6087:14)
+    at renderNode (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6270:12)
+    at renderChildrenArray (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6222:7)
+    at renderNodeDestructiveImpl (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6152:7)
+    at renderNodeDestructive (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6087:14)
+    at renderNode (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6270:12)
+    at renderHostElement (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:5642:3)
+    at renderElement (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:5963:5)
+    at renderNodeDestructiveImpl (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6115:11)
+    at renderNodeDestructive (D:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\node_modules\react-dom\cjs\react-dom-server.browser.development.js:6087:14) {
+  page: '/'
+}
+[0m [90m 27 |[39m[0m
+[0m [90m 28 |[39m [36mexport[39m [36mdefault[39m [36mfunction[39m [33mFooter[39m() {[0m
+[0m[31m[1m>[22m[39m[90m 29 |[39m     [36mconst[39m textRef [33m=[39m useRef[33m<[39m[33mHTMLDivElement[39m[33m>[39m([36mnull[39m)[33m;[39m[0m
+[0m [90m    |[39m                     [31m[1m^[22m[39m[0m
+[0m [90m 30 |[39m     [36mconst[39m sectionRef [33m=[39m useRef[33m<[39m[33mHTMLElement[39m[33m>[39m([36mnull[39m)[33m;[39m[0m
+[0m [90m 31 |[39m[0m
+[0m [90m 32 |[39m     useEffect(() [33m=>[39m {[0m
+ GET / 500 in 145ms
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ✓ Compiled in 855ms (391 modules)
+ GET / 200 in 114ms
+ ⨯ upstream image response failed for https://images.unsplash.com/photo-1556909190-4c2c82b9f5ed?w=900&q=85 404
+ GET /.well-known/appspecific/com.chrome.devtools.json 404 in 24ms
+ ⨯ upstream image response failed for https://images.unsplash.com/photo-1556909190-4c2c82b9f5ed?w=900&q=85 404
+ ⨯ upstream image response failed for https://images.unsplash.com/photo-1556909190-4c2c82b9f5ed?w=900&q=85 404
+ ⨯ upstream image response failed for https://images.unsplash.com/photo-1556909190-4c2c82b9f5ed?w=900&q=85 404
+ ⨯ upstream image response failed for https://images.unsplash.com/photo-1556909190-4c2c82b9f5ed?w=900&q=85 404
+ ⨯ upstream image response failed for https://images.unsplash.com/photo-1556909190-4c2c82b9f5ed?w=900&q=85 404
+ ⨯ upstream image response failed for https://images.unsplash.com/photo-1556909190-4c2c82b9f5ed?w=900&q=85 404
+ GET / 200 in 59ms
+ GET /_next/static/webpack/436deb7752685d70.webpack.hot-update.json 404 in 14ms
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET / 200 in 96ms
+ GET /_next/static/webpack/436deb7752685d70.webpack.hot-update.json 404 in 46ms
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET / 200 in 51ms
+ GET /_next/static/webpack/436deb7752685d70.webpack.hot-update.json 404 in 12ms
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET / 200 in 57ms
+ GET /_next/static/webpack/436deb7752685d70.webpack.hot-update.json 404 in 30ms
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET / 200 in 84ms
+ GET /_next/static/webpack/436deb7752685d70.webpack.hot-update.json 404 in 50ms
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET / 200 in 57ms
+ GET /_next/static/webpack/436deb7752685d70.webpack.hot-update.json 404 in 23ms
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET / 200 in 126ms
+ GET /_next/static/webpack/436deb7752685d70.webpack.hot-update.json 404 in 30ms
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET / 200 in 81ms
+ GET /_next/static/webpack/436deb7752685d70.webpack.hot-update.json 404 in 34ms
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET / 200 in 408ms
+ GET /_next/static/webpack/436deb7752685d70.webpack.hot-update.json 404 in 26ms
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET / 200 in 141ms
+ GET /_next/static/webpack/436deb7752685d70.webpack.hot-update.json 404 in 20ms
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET / 200 in 91ms
+ GET /_next/static/webpack/436deb7752685d70.webpack.hot-update.json 404 in 20ms
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET / 200 in 156ms
+ GET /_next/static/webpack/436deb7752685d70.webpack.hot-update.json 404 in 13ms
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET / 200 in 172ms
+ GET /_next/static/webpack/436deb7752685d70.webpack.hot-update.json 404 in 18ms
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET / 200 in 72ms
+ GET /_next/static/webpack/436deb7752685d70.webpack.hot-update.json 404 in 99ms
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET / 200 in 126ms
+ GET /_next/static/webpack/436deb7752685d70.webpack.hot-update.json 404 in 11ms
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET / 200 in 49ms
+ GET /_next/static/webpack/436deb7752685d70.webpack.hot-update.json 404 in 21ms
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET / 200 in 87ms
+ GET /_next/static/webpack/436deb7752685d70.webpack.hot-update.json 404 in 61ms
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET / 200 in 134ms
+ GET /_next/static/webpack/436deb7752685d70.webpack.hot-update.json 404 in 23ms
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET / 200 in 67ms
+ GET /_next/static/webpack/436deb7752685d70.webpack.hot-update.json 404 in 20ms
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET / 200 in 64ms
+ GET /_next/static/webpack/436deb7752685d70.webpack.hot-update.json 404 in 28ms
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET / 200 in 41ms
+ ✓ Compiled in 1440ms (391 modules)
+ GET /_next/static/webpack/03d92a08b975506a.webpack.hot-update.json 404 in 42ms
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET / 200 in 61ms
+ GET /_next/static/webpack/03d92a08b975506a.webpack.hot-update.json 404 in 23ms
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET / 200 in 65ms
+ ⨯ upstream image response failed for https://images.unsplash.com/photo-1556909190-4c2c82b9f5ed?w=900&q=85 404
+ GET /_next/static/webpack/03d92a08b975506a.webpack.hot-update.json 404 in 12ms
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET / 200 in 53ms
+ GET /_next/static/webpack/03d92a08b975506a.webpack.hot-update.json 404 in 13ms
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET / 200 in 55ms
+ GET /_next/static/webpack/03d92a08b975506a.webpack.hot-update.json 404 in 15ms
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET / 200 in 74ms
+ GET /_next/static/webpack/03d92a08b975506a.webpack.hot-update.json 404 in 24ms
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET / 200 in 60ms
+ GET /_next/static/webpack/03d92a08b975506a.webpack.hot-update.json 404 in 19ms
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET / 200 in 96ms
+ GET /_next/static/webpack/03d92a08b975506a.webpack.hot-update.json 404 in 11ms
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET / 200 in 55ms
+ GET /_next/static/webpack/03d92a08b975506a.webpack.hot-update.json 404 in 18ms
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET / 200 in 67ms
+ GET /_next/static/webpack/03d92a08b975506a.webpack.hot-update.json 404 in 11ms
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET / 200 in 53ms
+ GET /_next/static/webpack/03d92a08b975506a.webpack.hot-update.json 404 in 21ms
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET / 200 in 51ms
+ GET /_next/static/webpack/03d92a08b975506a.webpack.hot-update.json 404 in 12ms
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET / 200 in 57ms
+ GET /_next/static/webpack/03d92a08b975506a.webpack.hot-update.json 404 in 46ms
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET / 200 in 55ms
+ GET /_next/static/webpack/03d92a08b975506a.webpack.hot-update.json 404 in 17ms
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET / 200 in 48ms
+ GET /_next/static/webpack/03d92a08b975506a.webpack.hot-update.json 404 in 11ms
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET / 200 in 47ms
+ GET /_next/static/webpack/03d92a08b975506a.webpack.hot-update.json 404 in 22ms
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET / 200 in 57ms
+ GET /_next/static/webpack/03d92a08b975506a.webpack.hot-update.json 404 in 14ms
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET / 200 in 66ms
+ GET /_next/static/webpack/03d92a08b975506a.webpack.hot-update.json 404 in 15ms
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET / 200 in 58ms
+ GET /_next/static/webpack/03d92a08b975506a.webpack.hot-update.json 404 in 8ms
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET / 200 in 57ms
+ GET /_next/static/webpack/03d92a08b975506a.webpack.hot-update.json 404 in 40ms
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET / 200 in 106ms
+ GET /_next/static/webpack/03d92a08b975506a.webpack.hot-update.json 404 in 14ms
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET / 200 in 55ms
+ GET /_next/static/webpack/03d92a08b975506a.webpack.hot-update.json 404 in 16ms
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET / 200 in 58ms
+ GET /_next/static/webpack/03d92a08b975506a.webpack.hot-update.json 404 in 14ms
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET / 200 in 57ms
+ GET /_next/static/webpack/03d92a08b975506a.webpack.hot-update.json 404 in 10ms
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET / 200 in 124ms
+ GET /_next/static/webpack/03d92a08b975506a.webpack.hot-update.json 404 in 17ms
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET / 200 in 63ms
+ GET /_next/static/webpack/03d92a08b975506a.webpack.hot-update.json 404 in 10ms
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET / 200 in 54ms
+ GET /_next/static/webpack/03d92a08b975506a.webpack.hot-update.json 404 in 17ms
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET / 200 in 54ms
+ GET /_next/static/webpack/03d92a08b975506a.webpack.hot-update.json 404 in 12ms
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET / 200 in 200ms
+ GET /_next/static/webpack/03d92a08b975506a.webpack.hot-update.json 404 in 52ms
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET / 200 in 59ms
+ GET /_next/static/webpack/03d92a08b975506a.webpack.hot-update.json 404 in 17ms
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET / 200 in 75ms
+ GET /_next/static/webpack/03d92a08b975506a.webpack.hot-update.json 404 in 12ms
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET / 200 in 62ms
+ ✓ Compiled in 876ms (391 modules)
+ GET /_next/static/webpack/bdf8e7f21447b71e.webpack.hot-update.json 404 in 132ms
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET / 200 in 99ms
+ ✓ Compiled in 1257ms (391 modules)
+ ✓ Compiled in 481ms (268 modules)
+ ✓ Compiled in 597ms (268 modules)
+ ✓ Compiled in 468ms (268 modules)
+ ✓ Compiled in 536ms (268 modules)
+ ⨯ upstream image response failed for https://images.unsplash.com/photo-1556909190-4c2c82b9f5ed?w=900&q=85 404
+ ✓ Compiled in 521ms (268 modules)
+ ✓ Compiled in 301ms (268 modules)
+ ✓ Compiled in 1002ms (391 modules)
+ ✓ Compiled in 593ms (391 modules)
+ ⨯ upstream image response failed for https://images.unsplash.com/photo-1556909190-4c2c82b9f5ed?w=900&q=85 404
+ ✓ Compiled in 1790ms (393 modules)
+ ⨯ ./sections/Hero.tsx
+Error: 
+  [31mx[0m Unexpected token `section`. Expected jsx identifier
+    ,-[[36;1;4mD:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\sections\Hero.tsx[0m:44:1]
+ [2m44[0m |     }, []);
+ [2m45[0m | 
+ [2m46[0m |     return (
+ [2m47[0m |         <section
+    : [31;1m         ^^^^^^^[0m
+ [2m48[0m |             id="hero"
+ [2m49[0m |             style={{
+ [2m49[0m |                 position: 'relative',
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./sections/Hero.tsx
+ ⨯ ./sections/Hero.tsx
+Error: 
+  [31mx[0m Unexpected token `section`. Expected jsx identifier
+    ,-[[36;1;4mD:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\sections\Hero.tsx[0m:44:1]
+ [2m44[0m |     }, []);
+ [2m45[0m | 
+ [2m46[0m |     return (
+ [2m47[0m |         <section
+    : [31;1m         ^^^^^^^[0m
+ [2m48[0m |             id="hero"
+ [2m49[0m |             style={{
+ [2m49[0m |                 position: 'relative',
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./sections/Hero.tsx
+ ⨯ ./sections/Hero.tsx
+Error: 
+  [31mx[0m Unexpected token `section`. Expected jsx identifier
+    ,-[[36;1;4mD:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\sections\Hero.tsx[0m:44:1]
+ [2m44[0m |     }, []);
+ [2m45[0m | 
+ [2m46[0m |     return (
+ [2m47[0m |         <section
+    : [31;1m         ^^^^^^^[0m
+ [2m48[0m |             id="hero"
+ [2m49[0m |             style={{
+ [2m49[0m |                 position: 'relative',
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./sections/Hero.tsx
+ ⨯ ./sections/Services.tsx
+Error: 
+  [31mx[0m Unexpected token `section`. Expected jsx identifier
+    ,-[[36;1;4mD:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\sections\Services.tsx[0m:73:1]
+ [2m73[0m |     }, []);
+ [2m74[0m | 
+ [2m75[0m |     return (
+ [2m76[0m |         <section
+    : [31;1m         ^^^^^^^[0m
+ [2m77[0m |             ref={sectionRef}
+ [2m78[0m |             id="services"
+ [2m78[0m |             style={{
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./sections/Services.tsx
+ ⨯ ./sections/Services.tsx
+Error: 
+  [31mx[0m Unexpected token `section`. Expected jsx identifier
+    ,-[[36;1;4mD:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\sections\Services.tsx[0m:73:1]
+ [2m73[0m |     }, []);
+ [2m74[0m | 
+ [2m75[0m |     return (
+ [2m76[0m |         <section
+    : [31;1m         ^^^^^^^[0m
+ [2m77[0m |             ref={sectionRef}
+ [2m78[0m |             id="services"
+ [2m78[0m |             style={{
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./sections/Services.tsx
+ ⨯ ./sections/Services.tsx
+Error: 
+  [31mx[0m Unexpected token `section`. Expected jsx identifier
+    ,-[[36;1;4mD:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\sections\Services.tsx[0m:73:1]
+ [2m73[0m |     }, []);
+ [2m74[0m | 
+ [2m75[0m |     return (
+ [2m76[0m |         <section
+    : [31;1m         ^^^^^^^[0m
+ [2m77[0m |             ref={sectionRef}
+ [2m78[0m |             id="services"
+ [2m78[0m |             style={{
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./sections/Services.tsx
+ ⨯ ./sections/Services.tsx
+Error: 
+  [31mx[0m Unexpected token `section`. Expected jsx identifier
+    ,-[[36;1;4mD:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\sections\Services.tsx[0m:73:1]
+ [2m73[0m |     }, []);
+ [2m74[0m | 
+ [2m75[0m |     return (
+ [2m76[0m |         <section
+    : [31;1m         ^^^^^^^[0m
+ [2m77[0m |             ref={sectionRef}
+ [2m78[0m |             id="services"
+ [2m78[0m |             style={{
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./sections/Services.tsx
+ ⨯ ./sections/Services.tsx
+Error: 
+  [31mx[0m Unexpected token `section`. Expected jsx identifier
+    ,-[[36;1;4mD:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\sections\Services.tsx[0m:73:1]
+ [2m73[0m |     }, []);
+ [2m74[0m | 
+ [2m75[0m |     return (
+ [2m76[0m |         <section
+    : [31;1m         ^^^^^^^[0m
+ [2m77[0m |             ref={sectionRef}
+ [2m78[0m |             id="services"
+ [2m78[0m |             style={{
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./sections/Services.tsx
+ ✓ Compiled in 554ms (393 modules)
+ ✓ Compiled in 434ms (393 modules)
+ ✓ Compiled in 474ms (393 modules)
+ ⨯ ./sections/GalleryGrid.tsx
+Error: 
+  [31mx[0m Expected ';', '}' or <eof>
+    ,-[[36;1;4mD:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\sections\GalleryGrid.tsx[0m:63:1]
+ [2m63[0m |         };
+ [2m64[0m |         init();
+ [2m65[0m |         return () => ctx?.revert();
+ [2m66[0m |                     Discover Newly Curated Luxury Interiors for Modern Elegant Living Spaces
+    : [31;1m                    ^^^^|^^^[0m[33;1m ^^^^^[0m
+    :                         [31;1m`-- [31;1mThis is the expression part of an expression statement[0m[0m
+ [2m67[0m |                 </h2 >
+ [2m68[0m |             </div >
+ [2m68[0m | 
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./sections/GalleryGrid.tsx
+ ⨯ ./sections/GalleryGrid.tsx
+Error: 
+  [31mx[0m Expected ';', '}' or <eof>
+    ,-[[36;1;4mD:\DESKTOP\ELIVATE\agency\7pixels\client projects\interior designer 2\designs-by-shouray\sections\GalleryGrid.tsx[0m:63:1]
+ [2m63[0m |         };
+ [2m64[0m |         init();
+ [2m65[0m |         return () => ctx?.revert();
+ [2m66[0m |                     Discover Newly Curated Luxury Interiors for Modern Elegant Living Spaces
+    : [31;1m                    ^^^^|^^^[0m[33;1m ^^^^^[0m
+    :                         [31;1m`-- [31;1mThis is the expression part of an expression statement[0m[0m
+ [2m67[0m |                 </h2 >
+ [2m68[0m |             </div >
+ [2m68[0m | 
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./sections/GalleryGrid.tsx
+ ✓ Compiled in 520ms (393 modules)
+ ⨯ upstream image response failed for https://images.unsplash.com/photo-1556909190-4c2c82b9f5ed?w=900&q=85 404
+ GET /.well-known/appspecific/com.chrome.devtools.json 404 in 51ms
+ ⨯ upstream image response failed for https://images.unsplash.com/photo-1556909190-4c2c82b9f5ed?w=900&q=85 404
