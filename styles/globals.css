@@ -5,12 +5,17 @@
 @tailwind utilities;
 
 :root {
-  --bg-primary: #F9F8F6;
-  --bg-secondary: #EBE6E0;
-  --text-main: #1A1A1A;
-  --text-muted: #6B6B6B;
-  --accent: #8A735E;
-  --footer-bg: #3A3532;
+  --bg-primary: #FAFAF8;
+  /* Warm luminous cream */
+  --bg-secondary: #F2F0EB;
+  /* Soft bone */
+  --text-main: #111111;
+  /* Charcoal off-black */
+  --text-muted: #8C8881;
+  /* Taupe text */
+  --accent: #E3DFD5;
+  --footer-bg: #FFFFFF;
+  /* Pure white contrast block */
   --font-playfair: 'Playfair Display', serif;
   --font-inter: 'Inter', sans-serif;
 }
@@ -56,9 +61,9 @@ body {
 
 .label-small {
   font-family: var(--font-inter);
-  font-size: 0.7rem;
+  font-size: 0.65rem;
   font-weight: 500;
-  letter-spacing: 0.12em;
+  letter-spacing: 0.18em;
   text-transform: uppercase;
   color: var(--text-muted);
 }
@@ -114,8 +119,31 @@ body {
 }
 
 .btn-outline:hover {
-  background: rgba(249, 248, 246, 0.1);
-  border-color: var(--bg-primary);
+  background: rgba(17, 17, 17, 0.05);
+  border-color: var(--text-main);
+}
+
+/* ─── FILM GRAIN ─── */
+.film-grain {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  z-index: 9999;
+  opacity: 0.02;
+  /* Extremely light opacity for light mode */
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+}
+
+/* ─── HAIRLINE BORDER ─── */
+.hairline-b {
+  border-bottom: 1px solid rgba(17, 17, 17, 0.1);
+}
+
+.hairline-t {
+  border-top: 1px solid rgba(17, 17, 17, 0.1);
 }
 
 /* ─── CUSTOM CURSOR ─── */

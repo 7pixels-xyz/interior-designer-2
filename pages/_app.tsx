@@ -53,6 +53,7 @@ export default function App({ Component, pageProps }: AppProps) {
 
   return (
     <>
+      <div className="film-grain" />
       <Navbar />
       <Component {...pageProps} />
     </>

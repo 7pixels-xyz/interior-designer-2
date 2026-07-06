@@ -125,11 +125,11 @@ export default function StatsAbout() {
                 {stats.map((stat, i) => (
                     <div
                         key={i}
-                        className="sa-reveal"
+                        className="sa-reveal hairline-t"
                         style={{
-                            background: 'var(--bg-secondary)',
-                            borderRadius: '10px',
-                            padding: '2rem 1.5rem',
+                            background: 'transparent',
+                            padding: '2rem 1rem 0 0',
+                            marginTop: `${i * 1.5}rem`, // Staggered layout feeling
                         }}
                     >
                         <div style={{

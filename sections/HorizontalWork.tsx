@@ -70,9 +70,9 @@ export default function HorizontalWork() {
 
                 // Header reveal
                 gsap.fromTo('#hw-header',
-                    { y: 30, opacity: 0 },
+                    { y: 40, opacity: 0 },
                     {
-                        y: 0, opacity: 1, duration: 1, ease: 'power3.out',
+                        y: 0, opacity: 1, duration: 1.6, ease: 'power4.out',
                         scrollTrigger: { trigger: sectionRef.current, start: 'top 80%' }
                     }
                 );
@@ -118,8 +118,8 @@ export default function HorizontalWork() {
                     className="horizontal-section"
                     style={{
                         display: 'flex',
-                        gap: '1.5rem',
-                        padding: '0 5vw 4rem',
+                        gap: '4rem',
+                        padding: '0 5vw 6rem',
                         willChange: 'transform',
                         width: 'max-content',
                     }}
@@ -165,7 +165,7 @@ export default function HorizontalWork() {
                                 left: '1.5rem',
                                 fontFamily: 'var(--font-playfair)',
                                 fontSize: '1.1rem',
-                                color: 'rgba(249,248,246,0.5)',
+                                color: 'rgba(244, 242, 236,0.5)',
                             }}>
                                 0{i + 1}
                             </div>
@@ -211,13 +211,14 @@ export default function HorizontalWork() {
                             {/* Frosted glass info box */}
                             <div style={{
                                 position: 'absolute',
-                                bottom: '1.5rem',
-                                left: '1.5rem',
-                                background: 'rgba(249,248,246,0.92)',
+                                bottom: '2rem',
+                                left: '2rem',
+                                background: 'rgba(20, 19, 17, 0.85)',
                                 backdropFilter: 'blur(20px)',
                                 borderRadius: '12px',
+                                border: '1px solid rgba(244, 242, 236, 0.08)',
                                 padding: '1.25rem 1.5rem',
-                                maxWidth: '320px',
+                                maxWidth: '340px',
                             }}>
                                 <div style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', marginBottom: '0.4rem' }}>
                                     <span style={{
@@ -298,7 +299,7 @@ export default function HorizontalWork() {
                                 alignItems: 'center',
                                 gap: '0.3rem',
                             }}>
-                                <span style={{ color: 'rgba(249,248,246,0.7)', fontSize: '0.75rem', fontFamily: 'var(--font-inter)' }}>
+                                <span style={{ color: 'rgba(244, 242, 236,0.7)', fontSize: '0.75rem', fontFamily: 'var(--font-inter)' }}>
                                     📍 {project.location}
                                 </span>
                             </div>

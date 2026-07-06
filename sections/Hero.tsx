@@ -1,10 +1,11 @@
 import { useEffect, useRef } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { ArrowRight } from 'lucide-react';
 
 export default function Hero() {
-    const imgRef = useRef<HTMLDivElement>(null);
+    const sectionRef = useRef<HTMLElement>(null);
+    const img1Ref = useRef<HTMLDivElement>(null);
+    const img2Ref = useRef<HTMLDivElement>(null);
     const textRef = useRef<HTMLDivElement>(null);
 
     useEffect(() => {
@@ -15,29 +16,41 @@ export default function Hero() {
             gsap.registerPlugin(ScrollTrigger);
 
             ctx = gsap.context(() => {
-                // Parallax image
-                if (imgRef.current) {
-                    gsap.to(imgRef.current, {
-                        yPercent: 20,
-                        ease: 'none',
-                        scrollTrigger: {
-                            trigger: '#hero',
-                            start: 'top top',
-                            end: 'bottom top',
-                            scrub: 1,
-                        },
-                    });
-                }
-
-                // Text reveal
+                // Intro text reveal
                 if (textRef.current) {
-                    const els = textRef.current.querySelectorAll('.hero-reveal');
-                    gsap.fromTo(els,
-                        { y: 50, opacity: 0 },
-                        { y: 0, opacity: 1, duration: 1.2, stagger: 0.15, ease: 'power3.out', delay: 0.3 }
+                    const headers = textRef.current.querySelectorAll('.hero-title');
+                    gsap.fromTo(headers,
+                        { y: 80, opacity: 0, rotateZ: 2 },
+                        { y: 0, opacity: 1, rotateZ: 0, duration: 1.8, stagger: 0.15, ease: 'power4.out', delay: 0.2 }
+                    );
+
+                    const subtext = textRef.current.querySelectorAll('.hero-sub');
+                    gsap.fromTo(subtext,
+                        { y: 30, opacity: 0 },
+                        { y: 0, opacity: 1, duration: 1.5, stagger: 0.1, ease: 'power3.out', delay: 1.2 }
                     );
                 }
-            });
+
+                // Image Parallax
+                if (img1Ref.current) {
+                    gsap.fromTo(img1Ref.current,
+                        { yPercent: 15 },
+                        {
+                            yPercent: -15, ease: 'none',
+                            scrollTrigger: { trigger: sectionRef.current, start: 'top top', end: 'bottom top', scrub: 1 }
+                        }
+                    );
+                }
+                if (img2Ref.current) {
+                    gsap.fromTo(img2Ref.current,
+                        { yPercent: 25 },
+                        {
+                            yPercent: -25, ease: 'none',
+                            scrollTrigger: { trigger: sectionRef.current, start: 'top top', end: 'bottom top', scrub: 1.5 }
+                        }
+                    );
+                }
+            }, sectionRef);
         };
         init();
         return () => ctx?.revert();
@@ -46,125 +59,102 @@ export default function Hero() {
     return (
         <section
             id="hero"
+            ref={sectionRef}
             style={{
                 position: 'relative',
                 width: '100%',
-                height: '100vh',
+                minHeight: '100vh',
+                background: 'var(--bg-primary)',
+                display: 'flex',
+                flexDirection: 'column',
+                justifyContent: 'center',
+                padding: '20vh 5vw 10vh',
                 overflow: 'hidden',
-                background: '#1A1A1A',
+                zIndex: 1,
             }}
         >
-            {/* Background Image with parallax */}
+            <div ref={textRef} style={{ zIndex: 10, maxWidth: '1400px', margin: '0 auto', width: '100%', position: 'relative' }}>
+                <div style={{ overflow: 'hidden', marginBottom: '1.5rem' }} className="hero-sub">
+                    <p className="label-small" style={{ color: 'var(--text-muted)' }}>
+                        Est. 2016 &nbsp; — &nbsp; Global presence
+                    </p>
+                </div>
+
+                <div style={{ overflow: 'hidden' }}>
+                    <h1 className="display-heading hero-title" style={{ fontSize: 'clamp(4.5rem, 10vw, 9.5rem)', color: 'var(--text-main)', letterSpacing: '-0.03em', lineHeight: 0.9 }}>
+                        Shaping Light,
+                    </h1>
+                </div>
+                <div style={{ overflow: 'hidden', marginBottom: '4rem' }}>
+                    <h1 className="display-heading hero-title" style={{ fontSize: 'clamp(4.5rem, 10vw, 9.5rem)', color: 'var(--text-main)', letterSpacing: '-0.03em', lineHeight: 0.9, paddingLeft: '8vw' }}>
+                        Form & Space.
+                    </h1>
+                </div>
+
+                <div style={{ display: 'flex', flexDirection: 'column', gap: '2rem', alignItems: 'flex-start', paddingLeft: '8vw' }}>
+                    <p className="body-copy hero-sub" style={{ maxWidth: '400px', fontSize: '1.05rem', color: 'var(--text-muted)' }}>
+                        We approach interior architecture as a narrative medium—crafting luminous, deeply physical spaces that transform how life feels.
+                    </p>
+                    <div className="hero-sub">
+                        <Link href="/projects" className="btn-solid">
+                            Selected Works
+                        </Link>
+                    </div>
+                </div>
+            </div>
+
+            {/* Floating Editorial Images */}
             <div
-                ref={imgRef}
+                ref={img1Ref}
                 style={{
                     position: 'absolute',
-                    inset: '-10% 0',
-                    willChange: 'transform',
+                    top: '15vh',
+                    right: '10vw',
+                    width: '28vw',
+                    maxWidth: '380px',
+                    aspectRatio: '3/4',
+                    overflow: 'hidden',
+                    zIndex: 2,
                 }}
             >
                 <Image
-                    src="https://images.unsplash.com/photo-1600210492493-0946911123ea?w=1800&q=85"
-                    alt="Luxury living room interior"
+                    src="https://images.unsplash.com/photo-1617104678098-de229db51175?w=600&q=85"
+                    alt="Editorial interior detail"
                     fill
                     priority
-                    style={{ objectFit: 'cover', objectPosition: 'center' }}
-                    sizes="100vw"
+                    style={{ objectFit: 'cover' }}
                 />
             </div>
 
-            {/* Dark gradient overlays */}
-            <div style={{
-                position: 'absolute',
-                inset: 0,
-                background: 'linear-gradient(to top, rgba(15,12,10,0.85) 0%, rgba(15,12,10,0.25) 55%, rgba(15,12,10,0.4) 100%)',
-                zIndex: 2,
-            }} />
-
-            {/* Content */}
             <div
-                ref={textRef}
+                ref={img2Ref}
                 style={{
                     position: 'absolute',
-                    bottom: '8vh',
-                    left: '5vw',
-                    right: '5vw',
-                    zIndex: 3,
+                    bottom: '-5vh',
+                    right: '35vw',
+                    width: '20vw',
+                    maxWidth: '260px',
+                    aspectRatio: '4/5',
+                    overflow: 'hidden',
+                    zIndex: 2,
                 }}
             >
-                <p className="label-small hero-reveal" style={{ color: 'rgba(249,248,246,0.7)', marginBottom: '1.25rem' }}>
-                    ✦ &nbsp; Interior Design Studio
-                </p>
-
-                <h1
-                    className="display-heading hero-reveal"
-                    style={{
-                        color: '#F9F8F6',
-                        maxWidth: '750px',
-                        marginBottom: '1.25rem',
-                        textShadow: '0 2px 20px rgba(0,0,0,0.3)',
-                    }}
-                >
-                    Designing Spaces<br />That Define Luxury
-                </h1>
-
-                <p
-                    className="body-copy hero-reveal"
-                    style={{
-                        color: 'rgba(249,248,246,0.7)',
-                        maxWidth: '420px',
-                        marginBottom: '2.5rem',
-                        fontSize: '0.95rem',
-                    }}
-                >
-                    Explore exclusive properties designed for comfort elegance and modern living in prime locations worldwide.
-                </p>
-
-                <div className="hero-reveal" style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
-                    <Link href="/projects" className="btn-solid" style={{ color: '#F9F8F6', background: 'rgba(26,26,26,0.85)', backdropFilter: 'blur(8px)' }}>
-                        Explore Designs
-                        <ArrowRight size={14} />
-                    </Link>
-                    <Link href="/contact" className="btn-outline">
-                        Book a Private Tour
-                    </Link>
-                </div>
-            </div>
-
-            {/* Scroll indicator */}
-            <div style={{
-                position: 'absolute',
-                bottom: '6vh',
-                right: '5vw',
-                zIndex: 3,
-                display: 'flex',
-                flexDirection: 'column',
-                alignItems: 'center',
-                gap: '0.4rem',
-            }}>
-                <div style={{
-                    width: '1px',
-                    height: '60px',
-                    background: 'rgba(249,248,246,0.3)',
-                    position: 'relative',
-                    overflow: 'hidden',
-                }}>
-                    <div style={{
-                        position: 'absolute',
-                        top: '-100%',
-                        width: '100%',
-                        height: '50%',
-                        background: 'rgba(249,248,246,0.8)',
-                        animation: 'scrollLine 1.8s ease-in-out infinite',
-                    }} />
-                </div>
-                <span className="label-small" style={{ color: 'rgba(249,248,246,0.5)', writingMode: 'vertical-rl' }}>Scroll</span>
+                <Image
+                    src="https://images.unsplash.com/photo-1600210492493-0946911123ea?w=600&q=85"
+                    alt="Architectural texture"
+                    fill
+                    style={{ objectFit: 'cover' }}
+                />
             </div>
 
             <style jsx>{`
-        @keyframes scrollLine {
-          0% { top: -100%; }
-          100% { top: 200%; }
+        @media (max-width: 900px) {
+          h1 { padding-left: 0 !important; }
+          .hero-sub { padding-left: 0 !important; }
+        }
+        @media (max-width: 768px) {
+            div[style*="top: 15vh"] { display: none; }
+            div[style*="bottom: -5vh"] { display: none; }
         }
       `}</style>
         </section>

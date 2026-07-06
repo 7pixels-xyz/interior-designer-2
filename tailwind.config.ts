@@ -13,12 +13,16 @@ const config: Config = {
         inter: ['var(--font-inter)', 'sans-serif'],
       },
       colors: {
-        'bg-primary': '#F9F8F6',
-        'bg-secondary': '#EBE6E0',
-        'text-main': '#1A1A1A',
-        'text-muted': '#6B6B6B',
-        accent: '#8A735E',
-        'footer-bg': '#3A3532',
+        background: "var(--background)",
+        foreground: "var(--foreground)",
+        brand: {
+          offblack: "#111111",
+          charcoal: "#2A2A2A",
+          bone: "#FAFAF8",
+          taupe: "#C2BCB1",
+          muted: "#8C8881",
+          border: "rgba(17, 17, 17, 0.1)"
+        }
       },
     },
   },

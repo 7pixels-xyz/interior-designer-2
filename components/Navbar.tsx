@@ -29,10 +29,10 @@ export default function Navbar() {
                     alignItems: 'center',
                     justifyContent: 'space-between',
                     padding: '1.25rem 3vw',
-                    transition: 'background 0.4s ease, backdrop-filter 0.4s ease, box-shadow 0.4s ease',
-                    background: scrolled ? 'rgba(249,248,246,0.85)' : 'transparent',
+                    transition: 'background 0.4s ease, backdrop-filter 0.4s ease, border-color 0.4s ease',
+                    background: scrolled ? 'rgba(20, 19, 17, 0.85)' : 'transparent',
                     backdropFilter: scrolled ? 'blur(16px)' : 'none',
-                    boxShadow: scrolled ? '0 1px 0 rgba(0,0,0,0.06)' : 'none',
+                    borderBottom: scrolled ? '1px solid rgba(244, 242, 236, 0.08)' : '1px solid transparent',
                 }}
             >
                 {/* Left: Menu */}
@@ -46,12 +46,14 @@ export default function Navbar() {
                         border: 'none',
                         cursor: 'none',
                         fontFamily: 'var(--font-inter)',
-                        fontSize: '0.8rem',
+                        fontSize: '0.75rem',
                         fontWeight: 500,
-                        letterSpacing: '0.05em',
-                        color: scrolled ? 'var(--text-main)' : 'rgba(249,248,246,0.9)',
-                        transition: 'color 0.4s ease',
+                        letterSpacing: '0.08em',
+                        color: 'var(--text-main)',
+                        transition: 'opacity 0.4s ease',
                     }}
+                    onMouseEnter={(e) => (e.currentTarget.style.opacity = '0.7')}
+                    onMouseLeave={(e) => (e.currentTarget.style.opacity = '1')}
                 >
                     <Menu size={16} />
                     Menu
@@ -65,14 +67,16 @@ export default function Navbar() {
                         fontSize: '1.05rem',
                         fontWeight: 400,
                         letterSpacing: '0.04em',
-                        color: scrolled ? 'var(--text-main)' : 'rgba(249,248,246,0.95)',
+                        color: 'var(--text-main)',
                         textDecoration: 'none',
-                        transition: 'color 0.4s ease',
+                        transition: 'opacity 0.4s ease',
                         position: 'absolute',
                         left: '50%',
                         transform: 'translateX(-50%)',
                         whiteSpace: 'nowrap',
                     }}
+                    onMouseEnter={(e) => (e.currentTarget.style.opacity = '0.7')}
+                    onMouseLeave={(e) => (e.currentTarget.style.opacity = '1')}
                 >
                     Designs by Shouray
                 </Link>
@@ -85,17 +89,19 @@ export default function Navbar() {
                         alignItems: 'center',
                         gap: '0.4rem',
                         padding: '0.5rem 1.1rem',
-                        border: `1.5px solid ${scrolled ? 'var(--text-main)' : 'rgba(249,248,246,0.5)'}`,
+                        border: `1px solid rgba(244, 242, 236, 0.4)`,
                         borderRadius: '100px',
                         fontFamily: 'var(--font-inter)',
-                        fontSize: '0.78rem',
+                        fontSize: '0.75rem',
                         fontWeight: 500,
-                        color: scrolled ? 'var(--text-main)' : 'rgba(249,248,246,0.9)',
+                        color: 'var(--text-main)',
                         textDecoration: 'none',
-                        letterSpacing: '0.03em',
+                        letterSpacing: '0.05em',
                         transition: 'all 0.4s ease',
                         cursor: 'none',
                     }}
+                    onMouseEnter={(e) => { e.currentTarget.style.background = 'rgba(244, 242, 236, 0.1)' }}
+                    onMouseLeave={(e) => { e.currentTarget.style.background = 'transparent' }}
                 >
                     Contact Us
                     <ArrowRight size={13} />

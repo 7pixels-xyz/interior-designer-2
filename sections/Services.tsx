@@ -129,7 +129,7 @@ export default function Services() {
                         key={i}
                         className="srv-reveal"
                         style={{
-                            borderTop: `1px solid ${i === 0 ? 'var(--text-main)' : 'rgba(26,26,26,0.12)'}`,
+                            borderTop: `1px solid ${i === 0 ? 'var(--text-main)' : 'rgba(244, 242, 236, 0.08)'}`,
                             paddingTop: '1.25rem',
                             paddingBottom: i === activeIndex ? '1.5rem' : '1.25rem',
                             cursor: 'none',
@@ -180,7 +180,7 @@ export default function Services() {
                     </div>
                 ))}
                 {/* Bottom border */}
-                <div style={{ borderTop: '1px solid rgba(26,26,26,0.12)' }} />
+                <div style={{ borderTop: '1px solid rgba(244, 242, 236, 0.08)' }} />
             </div>
 
             <style jsx>{`

@@ -92,7 +92,7 @@ export default function Footer() {
                 gridTemplateColumns: 'repeat(4, 1fr)',
                 gap: '3rem',
                 paddingBottom: '4rem',
-                borderBottom: '1px solid rgba(249,248,246,0.1)',
+                borderBottom: '1px solid rgba(244, 242, 236,0.1)',
             }}
                 className="footer-cols"
             >
@@ -101,26 +101,26 @@ export default function Footer() {
                     <p style={{
                         fontFamily: 'var(--font-playfair)',
                         fontSize: '1.1rem',
-                        color: '#F9F8F6',
+                        color: 'var(--text-main)',
                         marginBottom: '1rem',
                     }}>Designs by Shouray</p>
                     <p style={{
                         fontFamily: 'var(--font-inter)',
                         fontSize: '0.82rem',
                         fontWeight: 300,
-                        color: 'rgba(249,248,246,0.5)',
+                        color: 'rgba(244, 242, 236,0.5)',
                         lineHeight: 1.7,
                         maxWidth: '200px',
                     }}>
                         Where beauty meets purpose. Creating luxury interiors since 2016.
                     </p>
                     <div style={{ marginTop: '1.5rem' }}>
-                        <p className="label-small" style={{ color: 'rgba(249,248,246,0.35)', marginBottom: '0.3rem' }}>Contact</p>
+                        <p className="label-small" style={{ color: 'rgba(244, 242, 236,0.35)', marginBottom: '0.3rem' }}>Contact</p>
                         <a href="mailto:hello@designsbyshouray.com" style={{
                             fontFamily: 'var(--font-inter)',
                             fontSize: '0.82rem',
                             fontWeight: 300,
-                            color: 'rgba(249,248,246,0.6)',
+                            color: 'rgba(244, 242, 236,0.6)',
                             textDecoration: 'none',
                             cursor: 'none',
                         }}>hello@designsbyshouray.com</a>
@@ -129,7 +129,7 @@ export default function Footer() {
 
                 {/* Quick Links */}
                 <div className="footer-col">
-                    <p className="label-small" style={{ color: 'rgba(249,248,246,0.4)', marginBottom: '1.5rem' }}>Quick Links</p>
+                    <p className="label-small" style={{ color: 'rgba(244, 242, 236,0.4)', marginBottom: '1.5rem' }}>Quick Links</p>
                     <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
                         {links.quick.map(l => (
                             <li key={l.label}>
@@ -137,7 +137,7 @@ export default function Footer() {
                                     fontFamily: 'var(--font-inter)',
                                     fontSize: '0.9rem',
                                     fontWeight: 300,
-                                    color: 'rgba(249,248,246,0.7)',
+                                    color: 'rgba(244, 242, 236,0.7)',
                                     textDecoration: 'none',
                                     cursor: 'none',
                                     transition: 'color 0.2s ease',
@@ -149,7 +149,7 @@ export default function Footer() {
 
                 {/* Property Types */}
                 <div className="footer-col">
-                    <p className="label-small" style={{ color: 'rgba(249,248,246,0.4)', marginBottom: '1.5rem' }}>Property Types</p>
+                    <p className="label-small" style={{ color: 'rgba(244, 242, 236,0.4)', marginBottom: '1.5rem' }}>Property Types</p>
                     <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
                         {links.property.map(l => (
                             <li key={l.label}>
@@ -157,7 +157,7 @@ export default function Footer() {
                                     fontFamily: 'var(--font-inter)',
                                     fontSize: '0.9rem',
                                     fontWeight: 300,
-                                    color: 'rgba(249,248,246,0.7)',
+                                    color: 'rgba(244, 242, 236,0.7)',
                                     textDecoration: 'none',
                                     cursor: 'none',
                                 }}>{l.label}</a>
@@ -169,12 +169,12 @@ export default function Footer() {
                 {/* Location + Socials */}
                 <div className="footer-col">
                     <div style={{ marginBottom: '2rem' }}>
-                        <p className="label-small" style={{ color: 'rgba(249,248,246,0.4)', marginBottom: '1rem' }}>Location</p>
+                        <p className="label-small" style={{ color: 'rgba(244, 242, 236,0.4)', marginBottom: '1rem' }}>Location</p>
                         <p style={{
                             fontFamily: 'var(--font-inter)',
                             fontSize: '0.85rem',
                             fontWeight: 300,
-                            color: 'rgba(249,248,246,0.6)',
+                            color: 'rgba(244, 242, 236,0.6)',
                             lineHeight: 1.7,
                         }}>
                             Studio 14, Design District<br />
@@ -183,7 +183,7 @@ export default function Footer() {
                         </p>
                     </div>
                     <div>
-                        <p className="label-small" style={{ color: 'rgba(249,248,246,0.4)', marginBottom: '1rem' }}>Socials</p>
+                        <p className="label-small" style={{ color: 'rgba(244, 242, 236,0.4)', marginBottom: '1rem' }}>Socials</p>
                         <div style={{ display: 'flex', flexDirection: 'column', gap: '0.6rem' }}>
                             {links.socials.map(({ label, icon: Icon, href }) => (
                                 <a key={label} href={href} style={{
@@ -193,7 +193,7 @@ export default function Footer() {
                                     fontFamily: 'var(--font-inter)',
                                     fontSize: '0.85rem',
                                     fontWeight: 300,
-                                    color: 'rgba(249,248,246,0.7)',
+                                    color: 'rgba(244, 242, 236,0.7)',
                                     textDecoration: 'none',
                                     cursor: 'none',
                                 }}>
@@ -222,7 +222,7 @@ export default function Footer() {
                     fontFamily: 'var(--font-playfair)',
                     fontSize: 'clamp(4rem, 14vw, 16rem)',
                     fontWeight: 400,
-                    color: 'rgba(249,248,246,0.06)',
+                    color: 'rgba(244, 242, 236,0.06)',
                     letterSpacing: '-0.02em',
                     userSelect: 'none',
                     whiteSpace: 'nowrap',
@@ -237,20 +237,20 @@ export default function Footer() {
                 justifyContent: 'space-between',
                 alignItems: 'center',
                 padding: '1.5rem 0',
-                borderTop: '1px solid rgba(249,248,246,0.06)',
+                borderTop: '1px solid rgba(244, 242, 236,0.06)',
                 marginTop: '0',
             }}>
                 <p style={{
                     fontFamily: 'var(--font-inter)',
                     fontSize: '0.72rem',
                     fontWeight: 300,
-                    color: 'rgba(249,248,246,0.3)',
+                    color: 'rgba(244, 242, 236,0.3)',
                 }}>© 2026 Designs by Shouray. All rights reserved.</p>
                 <p style={{
                     fontFamily: 'var(--font-inter)',
                     fontSize: '0.72rem',
                     fontWeight: 300,
-                    color: 'rgba(249,248,246,0.3)',
+                    color: 'rgba(244, 242, 236,0.3)',
                 }}>Crafted with precision & passion</p>
             </div>
 

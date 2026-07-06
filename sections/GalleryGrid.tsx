@@ -48,10 +48,10 @@ export default function GalleryGrid() {
                 const items = sectionRef.current?.querySelectorAll('.gallery-item');
                 items?.forEach((item, i) => {
                     gsap.fromTo(item,
-                        { y: 60, opacity: 0 },
+                        { y: 80, opacity: 0 },
                         {
-                            y: 0, opacity: 1, duration: 1.1, ease: 'power3.out',
-                            delay: (i % 3) * 0.1,
+                            y: 0, opacity: 1, duration: 1.5, ease: 'power4.out',
+                            delay: (i % 3) * 0.15,
                             scrollTrigger: {
                                 trigger: item,
                                 start: 'top 85%',
@@ -71,8 +71,8 @@ export default function GalleryGrid() {
             id="gallery"
             className="section-pad"
             style={{
-                background: '#1A1A1A',
-                color: '#F9F8F6',
+                background: 'var(--bg-secondary)',
+                color: 'var(--text-main)',
             }}
         >
             {/* Header */}
@@ -89,7 +89,7 @@ export default function GalleryGrid() {
                     display: 'grid',
                     gridTemplateColumns: 'repeat(3, 1fr)',
                     gridTemplateRows: 'auto',
-                    gap: '1rem',
+                    gap: '2.5rem',
                 }}
             >
                 {/* Item 0: Tall — spans 2 rows, col 1 */}
@@ -124,10 +124,10 @@ function GalleryCard({ item, style }: { item: typeof galleryItems[0]; style: Rea
             data-cursor="view"
             style={{
                 position: 'relative',
-                borderRadius: '12px',
+                borderRadius: '8px',
                 overflow: 'hidden',
                 aspectRatio: style.aspectRatio ? undefined : '3/4',
-                background: '#1A1A1A',
+                background: 'var(--footer-bg)',
                 cursor: 'none',
                 ...style,
             }}
@@ -157,14 +157,14 @@ function GalleryCard({ item, style }: { item: typeof galleryItems[0]; style: Rea
                     opacity: 0,
                     transition: 'all 0.4s ease',
                 }} className="gallery-text">
-                    <p className="label-small" style={{ color: 'rgba(249,248,246,0.6)', marginBottom: '0.3rem' }}>
+                    <p className="label-small" style={{ color: 'rgba(244, 242, 236,0.6)', marginBottom: '0.3rem' }}>
                         {item.category}
                     </p>
                     <h3 style={{
                         fontFamily: 'var(--font-playfair)',
-                        fontSize: '1rem',
+                        fontSize: '1.2rem',
                         fontWeight: 400,
-                        color: '#F9F8F6',
+                        color: 'var(--text-main)',
                     }}>{item.title}</h3>
                 </div>
             </div>

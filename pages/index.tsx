@@ -2,7 +2,9 @@ import type { NextPage } from 'next';
 import Head from 'next/head';
 import dynamic from 'next/dynamic';
 import Hero from '@/sections/Hero';
+import Manifesto from '@/sections/Manifesto';
 import StatsAbout from '@/sections/StatsAbout';
+import Process from '@/sections/Process';
 import Services from '@/sections/Services';
 import GalleryGrid from '@/sections/GalleryGrid';
 import Footer from '@/sections/Footer';
@@ -25,7 +27,9 @@ const Home: NextPage = () => {
 
       <main>
         <Hero />
+        <Manifesto />
         <StatsAbout />
+        <Process />
         <HorizontalWork />
         <Services />
         <GalleryGrid />
