@@ -60,10 +60,10 @@ export default function HorizontalWork() {
                     scrollTrigger: {
                         trigger: containerRef.current,
                         start: 'top top',
-                        end: () => `+=${scrollDistance + viewportWidth * 0.5}`,
+                        end: () => `+=${scrollDistance}`,
                         pin: true,
                         anticipatePin: 1,
-                        scrub: 1.2,
+                        scrub: 0.5,
                         invalidateOnRefresh: true,
                     },
                 });
@@ -120,7 +120,6 @@ export default function HorizontalWork() {
                         display: 'flex',
                         gap: '4rem',
                         padding: '0 5vw 6rem',
-                        willChange: 'transform',
                         width: 'max-content',
                     }}
                     data-cursor="drag"
