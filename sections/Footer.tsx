@@ -99,13 +99,13 @@ export default function Footer() {
                 {/* Brand */}
                 <div className="footer-col">
                     <p style={{
-                        fontFamily: 'var(--font-playfair)',
+                        fontFamily: 'var(--font-serif)',
                         fontSize: '1.1rem',
                         color: 'var(--text-main)',
                         marginBottom: '1rem',
                     }}>Designs by Shouray</p>
                     <p style={{
-                        fontFamily: 'var(--font-inter)',
+                        fontFamily: 'var(--font-sans)',
                         fontSize: '0.82rem',
                         fontWeight: 300,
                         color: 'rgba(244, 242, 236,0.5)',
@@ -117,7 +117,7 @@ export default function Footer() {
                     <div style={{ marginTop: '1.5rem' }}>
                         <p className="label-small" style={{ color: 'rgba(244, 242, 236,0.35)', marginBottom: '0.3rem' }}>Contact</p>
                         <a href="mailto:hello@designsbyshouray.com" style={{
-                            fontFamily: 'var(--font-inter)',
+                            fontFamily: 'var(--font-sans)',
                             fontSize: '0.82rem',
                             fontWeight: 300,
                             color: 'rgba(244, 242, 236,0.6)',
@@ -134,7 +134,7 @@ export default function Footer() {
                         {links.quick.map(l => (
                             <li key={l.label}>
                                 <a href={l.href} style={{
-                                    fontFamily: 'var(--font-inter)',
+                                    fontFamily: 'var(--font-sans)',
                                     fontSize: '0.9rem',
                                     fontWeight: 300,
                                     color: 'rgba(244, 242, 236,0.7)',
@@ -154,7 +154,7 @@ export default function Footer() {
                         {links.property.map(l => (
                             <li key={l.label}>
                                 <a href={l.href} style={{
-                                    fontFamily: 'var(--font-inter)',
+                                    fontFamily: 'var(--font-sans)',
                                     fontSize: '0.9rem',
                                     fontWeight: 300,
                                     color: 'rgba(244, 242, 236,0.7)',
@@ -171,7 +171,7 @@ export default function Footer() {
                     <div style={{ marginBottom: '2rem' }}>
                         <p className="label-small" style={{ color: 'rgba(244, 242, 236,0.4)', marginBottom: '1rem' }}>Location</p>
                         <p style={{
-                            fontFamily: 'var(--font-inter)',
+                            fontFamily: 'var(--font-sans)',
                             fontSize: '0.85rem',
                             fontWeight: 300,
                             color: 'rgba(244, 242, 236,0.6)',
@@ -190,7 +190,7 @@ export default function Footer() {
                                     display: 'flex',
                                     alignItems: 'center',
                                     gap: '0.5rem',
-                                    fontFamily: 'var(--font-inter)',
+                                    fontFamily: 'var(--font-sans)',
                                     fontSize: '0.85rem',
                                     fontWeight: 300,
                                     color: 'rgba(244, 242, 236,0.7)',
@@ -219,7 +219,7 @@ export default function Footer() {
                 }}
             >
                 <span style={{
-                    fontFamily: 'var(--font-playfair)',
+                    fontFamily: 'var(--font-serif)',
                     fontSize: 'clamp(4rem, 14vw, 16rem)',
                     fontWeight: 400,
                     color: 'rgba(244, 242, 236,0.06)',
@@ -241,13 +241,13 @@ export default function Footer() {
                 marginTop: '0',
             }}>
                 <p style={{
-                    fontFamily: 'var(--font-inter)',
+                    fontFamily: 'var(--font-sans)',
                     fontSize: '0.72rem',
                     fontWeight: 300,
                     color: 'rgba(244, 242, 236,0.3)',
                 }}>© 2026 Designs by Shouray. All rights reserved.</p>
                 <p style={{
-                    fontFamily: 'var(--font-inter)',
+                    fontFamily: 'var(--font-sans)',
                     fontSize: '0.72rem',
                     fontWeight: 300,
                     color: 'rgba(244, 242, 236,0.3)',

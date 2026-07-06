@@ -103,7 +103,7 @@ export default function Services() {
                                 border: 'none',
                                 padding: '0.6rem 0',
                                 textAlign: 'left',
-                                fontFamily: 'var(--font-inter)',
+                                fontFamily: 'var(--font-sans)',
                                 fontSize: '1.05rem',
                                 fontWeight: i === activeIndex ? 500 : 300,
                                 color: i === activeIndex ? 'var(--text-main)' : 'var(--text-muted)',
@@ -139,7 +139,7 @@ export default function Services() {
                     >
                         <div style={{ display: 'flex', alignItems: 'center', gap: '1.25rem' }}>
                             <span style={{
-                                fontFamily: 'var(--font-inter)',
+                                fontFamily: 'var(--font-sans)',
                                 fontSize: '0.7rem',
                                 fontWeight: 500,
                                 color: 'var(--text-muted)',
@@ -147,7 +147,7 @@ export default function Services() {
                                 minWidth: '24px',
                             }}>{srv.num}</span>
                             <h3 style={{
-                                fontFamily: 'var(--font-playfair)',
+                                fontFamily: 'var(--font-serif)',
                                 fontSize: 'clamp(1.1rem, 1.8vw, 1.5rem)',
                                 fontWeight: 400,
                                 color: 'var(--text-main)',

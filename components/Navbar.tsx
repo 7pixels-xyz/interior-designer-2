@@ -45,7 +45,7 @@ export default function Navbar() {
                         background: 'none',
                         border: 'none',
                         cursor: 'none',
-                        fontFamily: 'var(--font-inter)',
+                        fontFamily: 'var(--font-sans)',
                         fontSize: '0.75rem',
                         fontWeight: 500,
                         letterSpacing: '0.08em',
@@ -63,7 +63,7 @@ export default function Navbar() {
                 <Link
                     href="/"
                     style={{
-                        fontFamily: 'var(--font-playfair)',
+                        fontFamily: 'var(--font-serif)',
                         fontSize: '1.05rem',
                         fontWeight: 400,
                         letterSpacing: '0.04em',
@@ -91,7 +91,7 @@ export default function Navbar() {
                         padding: '0.5rem 1.1rem',
                         border: `1px solid rgba(244, 242, 236, 0.4)`,
                         borderRadius: '100px',
-                        fontFamily: 'var(--font-inter)',
+                        fontFamily: 'var(--font-sans)',
                         fontSize: '0.75rem',
                         fontWeight: 500,
                         color: 'var(--text-main)',
@@ -126,7 +126,7 @@ export default function Navbar() {
                         { label: 'Services', href: '/services' },
                         { label: 'Contact', href: '/contact' }
                     ].map(l => (
-                        <Link key={l.label} href={l.href} onClick={() => setMenuOpen(false)} style={{ fontFamily: 'var(--font-playfair)', fontSize: 'clamp(2rem, 5vw, 4rem)', textDecoration: 'none', color: 'var(--text-main)', transition: 'color 0.3s ease' }}>
+                        <Link key={l.label} href={l.href} onClick={() => setMenuOpen(false)} style={{ fontFamily: 'var(--font-serif)', fontSize: 'clamp(2rem, 5vw, 4rem)', textDecoration: 'none', color: 'var(--text-main)', transition: 'color 0.3s ease' }}>
                             {l.label}
                         </Link>
                     ))}

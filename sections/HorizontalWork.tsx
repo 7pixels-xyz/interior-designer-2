@@ -163,7 +163,7 @@ export default function HorizontalWork() {
                                 position: 'absolute',
                                 top: '1.5rem',
                                 left: '1.5rem',
-                                fontFamily: 'var(--font-playfair)',
+                                fontFamily: 'var(--font-serif)',
                                 fontSize: '1.1rem',
                                 color: 'rgba(244, 242, 236,0.5)',
                             }}>
@@ -198,7 +198,7 @@ export default function HorizontalWork() {
                                         background: 'linear-gradient(to top, rgba(0,0,0,0.6) 0%, transparent 60%)',
                                     }}>
                                         <p style={{
-                                            fontFamily: 'var(--font-inter)',
+                                            fontFamily: 'var(--font-sans)',
                                             fontSize: '0.55rem',
                                             fontWeight: 500,
                                             color: 'white',
@@ -229,7 +229,7 @@ export default function HorizontalWork() {
                                         display: 'inline-block',
                                     }} />
                                     <p style={{
-                                        fontFamily: 'var(--font-inter)',
+                                        fontFamily: 'var(--font-sans)',
                                         fontSize: '0.7rem',
                                         fontWeight: 500,
                                         color: 'var(--text-muted)',
@@ -238,7 +238,7 @@ export default function HorizontalWork() {
                                 </div>
 
                                 <h3 style={{
-                                    fontFamily: 'var(--font-playfair)',
+                                    fontFamily: 'var(--font-serif)',
                                     fontSize: '1.2rem',
                                     fontWeight: 400,
                                     color: 'var(--text-main)',
@@ -246,7 +246,7 @@ export default function HorizontalWork() {
                                 }}>{project.title}</h3>
 
                                 <p style={{
-                                    fontFamily: 'var(--font-inter)',
+                                    fontFamily: 'var(--font-sans)',
                                     fontSize: '0.78rem',
                                     fontWeight: 300,
                                     color: 'var(--text-muted)',
@@ -282,7 +282,7 @@ export default function HorizontalWork() {
                                         </div>
                                     </div>
                                     <span style={{
-                                        fontFamily: 'var(--font-playfair)',
+                                        fontFamily: 'var(--font-serif)',
                                         fontSize: '1.1rem',
                                         fontWeight: 400,
                                         color: 'var(--text-main)',
@@ -299,7 +299,7 @@ export default function HorizontalWork() {
                                 alignItems: 'center',
                                 gap: '0.3rem',
                             }}>
-                                <span style={{ color: 'rgba(244, 242, 236,0.7)', fontSize: '0.75rem', fontFamily: 'var(--font-inter)' }}>
+                                <span style={{ color: 'rgba(244, 242, 236,0.7)', fontSize: '0.75rem', fontFamily: 'var(--font-sans)' }}>
                                     📍 {project.location}
                                 </span>
                             </div>

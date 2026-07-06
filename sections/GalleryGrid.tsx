@@ -161,7 +161,7 @@ function GalleryCard({ item, style }: { item: typeof galleryItems[0]; style: Rea
                         {item.category}
                     </p>
                     <h3 style={{
-                        fontFamily: 'var(--font-playfair)',
+                        fontFamily: 'var(--font-serif)',
                         fontSize: '1.2rem',
                         fontWeight: 400,
                         color: 'var(--text-main)',

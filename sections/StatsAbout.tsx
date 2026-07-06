@@ -133,7 +133,7 @@ export default function StatsAbout() {
                         }}
                     >
                         <div style={{
-                            fontFamily: 'var(--font-playfair)',
+                            fontFamily: 'var(--font-serif)',
                             fontSize: 'clamp(2.2rem, 3.5vw, 3.5rem)',
                             fontWeight: 400,
                             color: 'var(--text-main)',

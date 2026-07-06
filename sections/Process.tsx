@@ -74,14 +74,14 @@ export default function Process() {
 
                         <div style={{ position: 'relative', width: '280px', flexShrink: 0, aspectRatio: '4/5', overflow: 'hidden' }}>
                             <Image src={p.img} alt={p.title} fill style={{ objectFit: 'cover' }} sizes="300px" />
-                            <div style={{ position: 'absolute', top: '-1rem', left: '-1rem', fontFamily: 'var(--font-playfair)', fontSize: '6rem', color: 'var(--bg-secondary)', textShadow: '1px 1px 0 rgba(17,17,17,0.1)' }}>
+                            <div style={{ position: 'absolute', top: '-1rem', left: '-1rem', fontFamily: 'var(--font-serif)', fontSize: '6rem', color: 'var(--bg-secondary)', textShadow: '1px 1px 0 rgba(17,17,17,0.1)' }}>
                                 {p.num}
                             </div>
                         </div>
 
                         <div style={{ maxWidth: '400px' }}>
-                            <div style={{ fontFamily: 'var(--font-inter)', fontSize: '0.85rem', color: 'var(--text-muted)', marginBottom: '1rem' }}>{p.num} &nbsp; — &nbsp; Pillar</div>
-                            <h3 style={{ fontFamily: 'var(--font-playfair)', fontSize: '2.5rem', marginBottom: '1.5rem', color: 'var(--text-main)', lineHeight: 1.1 }}>
+                            <div style={{ fontFamily: 'var(--font-sans)', fontSize: '0.85rem', color: 'var(--text-muted)', marginBottom: '1rem' }}>{p.num} &nbsp; — &nbsp; Pillar</div>
+                            <h3 style={{ fontFamily: 'var(--font-serif)', fontSize: '2.5rem', marginBottom: '1.5rem', color: 'var(--text-main)', lineHeight: 1.1 }}>
                                 {p.title}
                             </h3>
                             <p className="body-copy" style={{ color: 'var(--text-muted)' }}>

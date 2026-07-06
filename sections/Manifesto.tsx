@@ -56,7 +56,7 @@ export default function Manifesto() {
                 <p
                     ref={textRef}
                     style={{
-                        fontFamily: 'var(--font-playfair)',
+                        fontFamily: 'var(--font-serif)',
                         fontSize: 'clamp(2rem, 5vw, 4.5rem)',
                         lineHeight: 1.2,
                         color: 'var(--text-main)',

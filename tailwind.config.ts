@@ -9,8 +9,8 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        playfair: ['var(--font-playfair)', 'serif'],
-        inter: ['var(--font-inter)', 'sans-serif'],
+        playfair: ['var(--font-serif)', 'serif'],
+        inter: ['var(--font-sans)', 'sans-serif'],
       },
       colors: {
         background: "var(--background)",
